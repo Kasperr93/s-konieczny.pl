@@ -53,7 +53,7 @@ body {
  	color: #ff9955;
 }
 
-.navbar {
+.navbar.solid {
   	background: rgba(0, 0, 0, 0.7)!important;
   	transition: background-color 1s ease 0s;
 }
