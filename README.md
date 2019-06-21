@@ -1,0 +1,1 @@
+# s-konieczny.pl
