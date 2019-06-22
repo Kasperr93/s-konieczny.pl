@@ -188,3 +188,30 @@ h3.heading {
 .dark h3, .dark p {
 	color: #e9ecef;
 }
+
+
+/* ============ PORTFOLIO SECTION ============ */
+.row.padding {
+  	padding: 2rem 0 1rem;
+}
+
+img.example-image {
+  	max-width: 100%;
+}
+
+.row.no-padding [class*=col-] {
+  	padding: 0;
+}
+
+.portfolio-item img:hover {
+  	transform: scale(1.3);
+  	cursor: zoom-in;
+}
+
+.portfolio-item img {
+  	transition: transform .4s ease;
+}
+
+.portfolio-item {
+  	overflow: hidden;
+}
