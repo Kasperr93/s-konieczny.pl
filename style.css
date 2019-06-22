@@ -98,3 +98,33 @@ body {
 	text-transform: uppercase;
 	display: inline-block!important;
 }
+
+/* ============ ABOUT US SECTION ============ */
+.narrow {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem; 
+}
+
+.btn-sm {
+	border-width: medium;
+	border-radius: 0;
+	padding: .5rem 1.1rem;
+	font-size: .9rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 1rem;
+}
+
+.btn-orange {
+	border-color: #ff9955;
+	background-color: #ff9955;
+	color: white;
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+	border-color: #ff8d55;
+	background-color: #ff8d55;
+	color: white;
+}
