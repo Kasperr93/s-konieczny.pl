@@ -128,3 +128,63 @@ body {
 	background-color: #ff8d55;
 	color: white;
 }
+
+.jumbotron {
+	margin-bottom: 0;
+	border-radius: 0;
+	padding: 1rem 0 3rem;
+}
+
+h3.heading {
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: #ff9955;
+	margin: 0 auto 2rem;
+}
+
+/* ============ OFFER SECTION ============ */
+.feature {
+	text-align: center;
+}
+
+.feature .fa-layers {
+	color: #ff9955;
+	height: 6rem;
+	margin: 0 auto;
+	width: 3.9rem;
+}
+
+.feature h3 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .4rem;
+}
+
+.features p {
+	font-size: 1.1rem;
+}
+
+/* ============ FIXED BACKGROUND IMG DARK ============ */
+#fixed {
+	background-image: url('img/architecture.jpg');
+	z-index: -1;
+}
+
+.dark {
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 7rem 2rem;
+	text-align: center;
+	z-index: 1000!important;
+}
+
+.dark h3, .dark p {
+	color: #e9ecef;
+}
