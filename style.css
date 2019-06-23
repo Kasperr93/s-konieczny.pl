@@ -251,3 +251,68 @@ blockquote .svg-inline--fa {
 .owl-dot:hover span {
   background: #ff9955!important;
 }
+
+/* ============ CONTACT SECTION ============ */
+footer {
+	color: white;
+}
+
+footer .row {
+	background-color: rgba(57, 63, 70, 0.75);
+	padding: 1rem 2rem 3rem;
+}
+
+footer img {
+	height: 2rem;
+	margin: 1.5rem 0;
+}
+
+footer a {
+	color: white;
+}
+
+footer svg.svg-inline--fa {
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+	color: #ff9955!important;
+}
+
+footer h3 {
+	text-transform: uppercase;
+	margin: 1.5rem 0;
+}
+
+/* ============ CONTACT FORM ============ */
+.form-group {
+	margin-bottom: 1.3rem;
+}
+
+.form-control {
+	background-color: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color: white!important;
+	font-size: 1.1rem;
+}
+
+.form-control:focus {
+	background-color: #53595f;
+	border: .15rem solid #666b71;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+
+input.btn {
+	cursor: pointer;
+}
+
+hr.socket {
+	border-top: .2rem solid #666b71;
+	width: 100%;
+}
