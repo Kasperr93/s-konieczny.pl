@@ -53,13 +53,13 @@ body {
 }
 
 .navbar.solid {
-  	background: rgba(0, 0, 0, 0.7)!important;
+  	background: rgba(0, 0, 0, 0.7) !important;
   	transition: background-color 1s ease 0s;
 }
 
 /* ============ LANDING PAGE ============ */
 .home-inner {
-	background-image: url('img/architect.png');
+	background-image: url('img/background/architect.png');
 }
 
 .caption {
@@ -96,7 +96,7 @@ body {
 	font-size: 1.1rem;
 	font-weight: 400;
 	text-transform: uppercase;
-	display: inline-block!important;
+	display: inline-block !important;
 }
 
 /* ============ ABOUT US SECTION ============ */
@@ -174,7 +174,7 @@ h3.heading {
 
 /* ============ FIXED BACKGROUND IMG DARK ============ */
 #fixed {
-	background-image: url('img/architecture.jpg');
+	background-image: url('img/background/architecture.jpg');
 	z-index: -1;
 }
 
@@ -182,7 +182,7 @@ h3.heading {
 	background-color: rgba(0, 0, 0, 0.75);
 	padding: 7rem 2rem;
 	text-align: center;
-	z-index: 1000!important;
+	z-index: 1000 !important;
 }
 
 .dark h3, .dark p {
@@ -217,14 +217,14 @@ img.example-image {
 
 /* ============ CLIENT SECTION FIXED BG IMG LIGHT ============ */
 #fixed-2 {
-  background-image: url('img/plans.jpg');
+  background-image: url('img/background/plans.jpg');
   z-index: -1;
 }
 
 .light {
 	background-color: rgba(255, 255, 255, .85);
 	padding: 3rem 2rem 2rem;
-	z-index: 1000!important;
+	z-index: 1000 !important;
 }
 
 .clients img {
@@ -249,7 +249,7 @@ blockquote .svg-inline--fa {
 
 .owl-dot.active span,
 .owl-dot:hover span {
-  background: #ff9955!important;
+  background: #ff9955 !important;
 }
 
 /* ============ CONTACT SECTION ============ */
@@ -277,7 +277,7 @@ footer svg.svg-inline--fa {
 }
 
 footer svg.svg-inline--fa:hover {
-	color: #ff9955!important;
+	color: #ff9955 !important;
 }
 
 footer h3 {
@@ -294,7 +294,7 @@ footer h3 {
 	background-color: #53595f;
 	border-radius: 0;
 	border: .15rem solid #666b71;
-	color: white!important;
+	color: white !important;
 	font-size: 1.1rem;
 }
 
@@ -305,7 +305,7 @@ footer h3 {
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-	color: #b2b5b8!important;
+	color: #b2b5b8 !important;
 }
 
 input.btn {
@@ -336,4 +336,91 @@ a.top-scroll {
 
 a.top-scroll:hover {
 	opacity: .5;
+}
+
+/* ============ MEDIA QUERIES ============ */
+/* Devices under 992px (lg) */
+@media (max-width: 991px) {
+	.caption h1 {
+		font-size: 3.5rem;
+		letter-spacing: .2rem;
+		padding-bottom: .8rem;
+	}
+
+	.caption h3 {
+		font-size: 2.2rem;
+		padding-bottom: 1.7rem;
+	}
+
+	.btn-lg {
+		padding: .7rem 1.2rem;
+		font-size: 1rem;
+	}
+
+	.narrow h1 {
+		font-size: 2.1rem;
+	}
+}
+
+/* Devices under 768px (mg) */
+@media (max-width: 767px) {
+	.caption h1 {
+		font-size: 2.7rem;
+		letter-spacing: .15rem;
+		padding-bottom: .5rem;
+	}
+
+	.caption h3 {
+		font-size: 1.7rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.btn-lg {
+		padding: .6rem 1.1rem;
+		font-size: 1rem;
+	}
+
+	.narrow h1 {
+		font-size: 1.8rem;
+	}
+
+	#fixed {
+		background-image: url('img/background/architecture-mobile.jpg');
+	}
+
+	#fixed-2 {
+ 		background-image: url('img/background/plans-mobile.jpg');
+	}
+
+	.clients img {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+
+	.top-scroll {
+		display: none !important;
+	}
+}
+
+/* Devices under 576px (lg) */
+@media (max-width: 575px) {
+	.caption h1 {
+		font-size: 1.9rem;
+		letter-spacing: .1rem;
+		padding-bottom: .4rem;
+	}
+
+	.caption h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1rem;
+	}
+
+	.btn-lg {
+		padding: .4rem .9rem;
+		font-size: .9rem;
+	}
+
+	.narrow h1 {
+		width: 85%;
+	}
 }
