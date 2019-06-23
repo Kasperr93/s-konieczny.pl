@@ -189,7 +189,6 @@ h3.heading {
 	color: #e9ecef;
 }
 
-
 /* ============ PORTFOLIO SECTION ============ */
 .row.padding {
   	padding: 2rem 0 1rem;
@@ -214,4 +213,41 @@ img.example-image {
 
 .portfolio-item {
   	overflow: hidden;
+}
+
+/* ============ CLIENT SECTION FIXED BG IMG LIGHT ============ */
+#fixed-2 {
+  background-image: url('img/plans.jpg');
+  z-index: -1;
+}
+
+.light {
+	background-color: rgba(255, 255, 255, .85);
+	padding: 3rem 2rem 2rem;
+	z-index: 1000!important;
+}
+
+.clients img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	transition: transform .3s ease;
+}
+
+.clients img:hover {
+	transform: scale(0.95);
+}
+
+blockquote .svg-inline--fa {
+	margin: 1rem;
+	color: #ff9955;
+}
+
+.clients-hr {
+	border-top: .05rem solid #ff9955;
+}
+
+.owl-dot.active span,
+.owl-dot:hover span {
+  background: #ff9955!important;
 }
