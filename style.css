@@ -316,3 +316,24 @@ hr.socket {
 	border-top: .2rem solid #666b71;
 	width: 100%;
 }
+
+/* ============ TOP SCROLL ============ */
+.top-scroll svg.svg-inline--fa {
+	font-size: 3rem;
+	height: 1.7rem;
+	color: #53595f;
+	background: white;
+}
+
+a.top-scroll {
+	right: 1.2rem;
+	bottom: 1.2rem;
+	position: fixed;
+	opacity: .3;
+	z-index: 1000;
+	display: none;
+}
+
+a.top-scroll:hover {
+	opacity: .5;
+}

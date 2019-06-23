@@ -65,3 +65,14 @@ $(document).ready(function() {
 		}
 	});
 });
+
+/* ============ TOP SCROLL ============ */
+$(document).ready(function() {
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 500) {
+			$('.top-scroll').fadeIn();
+		} else {
+			$('.top-scroll').fadeOut();
+		}
+	});
+});
