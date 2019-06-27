@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+html  {
+ 	padding: env(safe-area-inset);
+}
+
 body {
 	overflow-x: hidden;
   	font-family: 'Lato', sans-serif;
@@ -150,6 +154,62 @@ h3.heading {
 	margin: 0 auto 2rem;
 }
 
+.aboutus {
+	padding: 1rem 2rem 2rem;
+	z-index: 1000 !important;
+}
+
+.card {
+	border-radius: 0;
+	border-width: .1rem solid rgba(0, 0, 0, .075);
+	box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+	margin: .01rem 1.5rem;
+	transition: transform .4s ease;
+	/*transform: scale(.90);*/
+}
+
+.card-img-top {
+	border-radius: 0;
+}
+
+.card:hover {
+	transform: scale(.95);
+}
+
+.card-body p {
+	text-align: justify;
+}
+
+.card p {
+	border-top: .1rem solid rgba(0, 0, 0, .1);
+	border-bottom: .1rem solid rgba(0, 0, 0, .1);
+	padding: 1rem;
+	margin: 1rem 0 1.5rem;
+}
+
+.card h4 {
+	font-weight: 700;
+}
+
+.card h5 {
+	color: #ff9955
+}
+
+.card svg.svg-inline--fa {
+	color: #ff9955 !important;
+	font-size: 1.3rem;
+	width: 2rem;
+}
+
+.card svg.svg-inline--fa:hover {
+	color: #6c757d !important;
+}
+
+.owl-dot.active span,
+.owl-dot:hover span {
+  background: #ff9955 !important;
+}
+
 /* ============ OFFER SECTION ============ */
 .feature {
 	text-align: center;
@@ -245,11 +305,6 @@ blockquote .svg-inline--fa {
 
 .clients-hr {
 	border-top: .05rem solid #ff9955;
-}
-
-.owl-dot.active span,
-.owl-dot:hover span {
-  background: #ff9955 !important;
 }
 
 /* ============ CONTACT SECTION ============ */

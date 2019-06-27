@@ -5,11 +5,11 @@
     $fromEmail = $_POST['email'];
     $fromName = $_POST['name'];
 
-    $sendToEmail = 'email';
-    $sendToName = 'email';
+    $sendToEmail = 'test@kasper.atthost24.pl';
+    $sendToName = 'biuro@s-konieczny.pl';
     $subject = 'Nowa wiadomość z formularza kontaktowego. Temat: ' . $_POST['subject'];
     $fields = array('name' => 'Name:', 'email' => 'Email:', 'message' => 'Message:');
-    $okMessage = 'Wiadomość została wysyłania - odpowiemy najszybciej jak to możliwe!';
+    $okMessage = 'Wiadomość została wysyłana - odpowiemy najszybciej jak to możliwe!';
     $errorMessage = 'Wystąpił problem podczas wysyłania wiadomości. Proszę spróbować później';
 
     error_reporting(E_ALL & ~E_NOTICE);
@@ -31,10 +31,10 @@
         
         $mail = new PHPMailer;
         $mail->isSMTP();
-        $mail->Host       = 'host';
+        $mail->Host       = 'kasper.atthost24.pl';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'username';
-        $mail->Password   = 'password';
+        $mail->Username   = 'test@kasper.atthost24.pl';
+        $mail->Password   = 'Ln9#@O@NR0!Ee';
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;
 

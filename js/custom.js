@@ -61,7 +61,7 @@ $(document).ready(function() {
 			},
 			768: {
 				items: 2
-			},
+			}
 		}
 	});
 });
@@ -73,6 +73,25 @@ $(document).ready(function() {
 			$('.top-scroll').fadeIn();
 		} else {
 			$('.top-scroll').fadeOut();
+		}
+	});
+});
+
+/* ============ ABOUT US CAROUSEL ============ */
+$(document).ready(function() {
+	$("#aboutus-slider").owlCarousel({
+		items: 2,
+		autoplay: true,
+		smartSpeed: 700,
+		loop: true,
+		autoplayHoverPause: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			576: {
+				items: 2
+			}
 		}
 	});
 });
